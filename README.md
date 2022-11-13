@@ -30,4 +30,4 @@ EDUCATION
 
 STATS
 -----
-![Most used languages in code](https://github-readme-stats.vercel.app/api/top-langs/?username=conchoco&card_width=445&layout=compact&langs_count=10&theme=vue-dark)
+![Most used languages in code](https://github-readme-stats.vercel.app/api/top-langs/?username=conchocon154&card_width=445&layout=compact&langs_count=10&theme=vue-dark)
