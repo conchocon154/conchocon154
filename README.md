@@ -2,7 +2,8 @@ DangLe (@conchocon154) - Bussiness Analyst
 =================================================
 
 Phone: +84 82 6601933 / Email: dangleminh6677@gmail.com <br>
-Facebook: https://www.facebook.com/le.minh.dang.150402
+[Facebook](https://www.facebook.com/le.minh.dang.150402) &nbsp;&middot;&nbsp;
+
 
 SUMMARY
 -------
@@ -20,6 +21,14 @@ Fields of research:
 - Natural Language Processing
 - Time Series 
 - Bussiness Analyst
+
+EXPERIENCE
+---------
+
+### 03/2021 - 06/2021:
+  - Developer at Havi Technology
+### 07/2022 - 11/2022:
+  - SEO for [BTSE](https://www.btse.com/en/home) &nbsp;&middot;&nbsp;
 
 EDUCATION
 ---------
