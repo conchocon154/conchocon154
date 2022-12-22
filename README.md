@@ -40,3 +40,5 @@ EDUCATION
 STATS
 -----
 ![Most used languages in code](https://github-readme-stats.vercel.app/api/top-langs/?username=conchocon154&card_width=445&layout=compact&langs_count=10&theme=vue-dark)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=conchocon154&show_icons=true&theme=gruvbox&hide=issues) 
+
