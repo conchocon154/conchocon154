@@ -33,6 +33,7 @@ EXPERIENCE
   - SEO for [BTSE](https://www.btse.com/en/home) &nbsp;&middot;&nbsp;
 ### 04/2023 - now:
   - Teaching python at [ICANTECH](https://www.icantech.vn/) &nbsp;&middot;&nbsp;
+
 EDUCATION
 ---------
 
