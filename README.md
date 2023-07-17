@@ -1,4 +1,4 @@
-DangLe (@conchocon154) - Bussiness Analyst
+DangLe (@conchocon154) - Bussiness Analyst - Data Science - Fintech
 =================================================
 
 Phone: +84 82 6601933 / Email: dangleminh6677@gmail.com <br>
@@ -21,15 +21,18 @@ Fields of research:
 - Natural Language Processing
 - Time Series 
 - Bussiness Analyst
+- Python
+- Javascript
 
 EXPERIENCE
 ---------
 
 ### 03/2021 - 06/2021:
-  - Developer at Havi Technology
+  - Developer at [Havi Technology](https://havi.com.au/) &nbsp;&middot;&nbsp;
 ### 07/2022 - 11/2022:
   - SEO for [BTSE](https://www.btse.com/en/home) &nbsp;&middot;&nbsp;
-
+### 04/2023 - now:
+  - Teaching python at [ICANTECH](https://www.icantech.vn/) &nbsp;&middot;&nbsp;
 EDUCATION
 ---------
 
