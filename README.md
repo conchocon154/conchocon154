@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm DangLe 👋</h1>
-<h3 align="center">Computer Science student · AI / Machine Learning · aspiring Fintech & Business Analyst</h3>
+<h3 align="center">Computer Science graduate · AI / Machine Learning · aspiring Fintech & Business Analyst</h3>
 
 <p align="center">
   <a href="https://www.facebook.com/le.minh.dang.150402"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/></a>
@@ -10,7 +10,7 @@
 
 ### 🚀 About me
 
-I'm a Computer Science student at **Ton Duc Thang University** with a strong interest in **Artificial Intelligence** and how it can be applied to problems in **finance and business**. I build things across the stack — from computer-vision and NLP models to native desktop apps and full-stack systems — and in my free time I read about finance, management, and business strategy. My goal is to work at the intersection of **technology and fintech**.
+I'm a Computer Science graduate from **Ton Duc Thang University** (2025) with a strong interest in **Artificial Intelligence** and how it can be applied to problems in **finance and business**. I build things across the stack — from computer-vision and NLP models to native desktop apps and full-stack systems — and in my free time I read about finance, management, and business strategy. My goal is to work at the intersection of **technology and fintech**.
 
 - 🔭 Currently building real-time computer-vision tooling with **YOLO + OpenCV**
 - 🧠 Interests: Machine Learning · NLP · Time Series · Business Analytics
@@ -60,7 +60,7 @@ I'm a Computer Science student at **Ton Duc Thang University** with a strong int
 
 ### 🎓 Education
 
-- **Ton Duc Thang University** (Vietnam) · 08/2020 – now — B.Sc. Computer Science
+- **Ton Duc Thang University** (Vietnam) · 08/2020 – 09/2025 — B.Sc. Computer Science *(Graduated)*
 
 ---
 
