@@ -12,6 +12,7 @@
 
 I'm a Computer Science graduate from **Ton Duc Thang University** (2025) with a strong interest in **Artificial Intelligence** and how it can be applied to problems in **finance and business**. I build things across the stack — from computer-vision and NLP models to native desktop apps and full-stack systems — and in my free time I read about finance, management, and business strategy. My goal is to work at the intersection of **technology and fintech**.
 
+- 💼 Working as a **freelance AI Developer** — building ML / computer-vision solutions for clients
 - 🔭 Currently building real-time computer-vision tooling with **YOLO + OpenCV**
 - 🧠 Interests: Machine Learning · NLP · Time Series · Business Analytics
 - 👨‍🏫 Teaching Python at **ICANTECH**
@@ -54,6 +55,7 @@ I'm a Computer Science graduate from **Ton Duc Thang University** (2025) with a 
 
 ### 💼 Experience
 
+- **09/2025 – now** — Freelance AI Developer
 - **04/2023 – now** — Python Instructor @ [ICANTECH](https://www.icantech.vn/)
 - **07/2022 – 11/2022** — SEO @ [BTSE](https://www.btse.com/en/home)
 - **03/2021 – 06/2021** — Developer @ [Havi Technology](https://havi.com.au/)
