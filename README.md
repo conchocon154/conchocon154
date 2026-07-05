@@ -67,7 +67,12 @@ I'm a Computer Science student at **Ton Duc Thang University** with a strong int
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=conchocon154&card_width=445&layout=compact&langs_count=10&theme=vue-dark" alt="Top languages" />
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api?username=conchocon154&show_icons=true&theme=gruvbox&hide=issues" alt="GitHub stats" />
+  <a href="https://github.com/conchocon154?tab=followers"><img src="https://img.shields.io/github/followers/conchocon154?style=for-the-badge&logo=github&label=Followers&color=181717" alt="Followers"/></a>
+  <img src="https://komarev.com/ghpvc/?username=conchocon154&style=for-the-badge&label=Profile+Views&color=0e75b6" alt="Profile views"/>
+</p>
+
+<p align="center">
+  <a href="https://github.com/conchocon154/object-detection"><img src="https://img.shields.io/github/stars/conchocon154/object-detection?style=flat-square&logo=github&label=object-detection" alt="object-detection stars"/></a>
+  <a href="https://github.com/conchocon154/Chess_Ai"><img src="https://img.shields.io/github/stars/conchocon154/Chess_Ai?style=flat-square&logo=github&label=Chess_Ai" alt="Chess_Ai stars"/></a>
+  <a href="https://github.com/conchocon154/Chess"><img src="https://img.shields.io/github/stars/conchocon154/Chess?style=flat-square&logo=github&label=Chess" alt="Chess stars"/></a>
 </p>
