@@ -15,7 +15,7 @@ I'm a Computer Science graduate from **Ton Duc Thang University** (2025) with a 
 - 💼 Working as a **freelance AI Developer** — building ML / computer-vision solutions for clients
 - 🔭 Currently building real-time computer-vision tooling with **YOLO + OpenCV**
 - 🧠 Interests: Machine Learning · NLP · Time Series · Business Analytics
-- 👨‍🏫 Teaching Python at **ICANTECH**
+- 👨‍🏫 Previously taught Python at **ICANTECH** (2023 – 2025)
 - 🎓 Member of the **ICON Academic Club** ([@iconclub](https://github.com/iconclub))
 - 🌏 Languages: 🇬🇧 English · 🇻🇳 Vietnamese · 🇨🇳 Chinese
 
@@ -56,7 +56,7 @@ I'm a Computer Science graduate from **Ton Duc Thang University** (2025) with a 
 ### 💼 Experience
 
 - **09/2025 – now** — Freelance AI Developer
-- **04/2023 – now** — Python Instructor @ [ICANTECH](https://www.icantech.vn/)
+- **04/2023 – 09/2025** — Python Instructor @ [ICANTECH](https://www.icantech.vn/)
 - **07/2022 – 11/2022** — SEO @ [BTSE](https://www.btse.com/en/home)
 - **03/2021 – 06/2021** — Developer @ [Havi Technology](https://havi.com.au/)
 
