@@ -16,6 +16,7 @@ I'm a Computer Science student at **Ton Duc Thang University** with a strong int
 - 🧠 Interests: Machine Learning · NLP · Time Series · Business Analytics
 - 👨‍🏫 Teaching Python at **ICANTECH**
 - 🎓 Member of the **ICON Academic Club** ([@iconclub](https://github.com/iconclub))
+- 🌏 Languages: 🇬🇧 English · 🇻🇳 Vietnamese · 🇨🇳 Chinese
 
 ---
 
