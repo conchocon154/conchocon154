@@ -53,6 +53,7 @@ the accounting decisions underneath it.
 
 | Project | What it does | Tech |
 |---|---|---|
+| 🔌 [**ev-purchase-analysis**](https://github.com/conchocon154/ev-purchase-analysis) | Bilingual analysis of a live Kaggle competition (668k records): which customers buy an EV and what actually moves the decision. Includes an apparent interaction that a likelihood ratio test showed did not exist — and which changed the recommendation | Python · pandas · scikit-learn · statsmodels |
 | 📊 [**retail-analytics-sql**](https://github.com/conchocon154/retail-analytics-sql) | Eight analytical SQL queries over a simulated hardware shop — FIFO margin trends, ABC concentration, inventory turnover, receivables ageing, reorder points. Every planted pattern is documented, and 20 tests check the numbers | SQL · SQLite · Python · pandas |
 | 🔎 [**vn-product-matcher**](https://github.com/conchocon154/vn-product-matcher) | Matches free-text Vietnamese product names onto catalogue SKUs. Fine-tuned encoder reaches 96.9% Recall@1 on unseen SKUs — 1.9 points over a strong TF-IDF baseline, with McNemar significance testing and a documented negative result | Python · SQLite/FTS5 · PyTorch · FastAPI |
 | 🎥 [**object-detection**](https://github.com/conchocon154/object-detection) | Real-time object detection from webcam, video, or image — modular pipeline with CI and configurable thresholds | Python · YOLO · OpenCV |
@@ -82,6 +83,7 @@ the accounting decisions underneath it.
 </p>
 
 <p align="center">
+  <a href="https://github.com/conchocon154/ev-purchase-analysis"><img src="https://img.shields.io/github/stars/conchocon154/ev-purchase-analysis?style=flat-square&logo=github&label=ev-purchase-analysis" alt="ev-purchase-analysis stars"/></a>
   <a href="https://github.com/conchocon154/retail-analytics-sql"><img src="https://img.shields.io/github/stars/conchocon154/retail-analytics-sql?style=flat-square&logo=github&label=retail-analytics-sql" alt="retail-analytics-sql stars"/></a>
   <a href="https://github.com/conchocon154/vn-product-matcher"><img src="https://img.shields.io/github/stars/conchocon154/vn-product-matcher?style=flat-square&logo=github&label=vn-product-matcher" alt="vn-product-matcher stars"/></a>
   <a href="https://github.com/conchocon154/object-detection"><img src="https://img.shields.io/github/stars/conchocon154/object-detection?style=flat-square&logo=github&label=object-detection" alt="object-detection stars"/></a>
