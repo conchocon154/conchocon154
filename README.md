@@ -53,12 +53,13 @@ the accounting decisions underneath it.
 
 | Project | What it does | Tech |
 |---|---|---|
+| 🖼️ [**caption-decoding-study**](https://github.com/conchocon154/caption-decoding-study) | Does a wider beam help image captioning? Quality peaks at beam 5 and *falls* at 10 (p = 0.017), while caption diversity declines throughout — a controlled comparison on MS-COCO with paired bootstrap testing | PyTorch · ResNet-50 · LSTM · NLTK |
 | 🔌 [**ev-purchase-analysis**](https://github.com/conchocon154/ev-purchase-analysis) | Bilingual analysis of a live Kaggle competition (668k records): which customers buy an EV and what actually moves the decision. Includes an apparent interaction that a likelihood ratio test showed did not exist — and which changed the recommendation | Python · pandas · scikit-learn · statsmodels |
 | 📊 [**retail-analytics-sql**](https://github.com/conchocon154/retail-analytics-sql) | Eight analytical SQL queries over a simulated hardware shop — FIFO margin trends, ABC concentration, inventory turnover, receivables ageing, reorder points. Every planted pattern is documented, and 20 tests check the numbers | SQL · SQLite · Python · pandas |
 | 🔎 [**vn-product-matcher**](https://github.com/conchocon154/vn-product-matcher) | Matches free-text Vietnamese product names onto catalogue SKUs. Fine-tuned encoder reaches 96.9% Recall@1 on unseen SKUs — 1.9 points over a strong TF-IDF baseline, with McNemar significance testing and a documented negative result | Python · SQLite/FTS5 · PyTorch · FastAPI |
 | 🎥 [**object-detection**](https://github.com/conchocon154/object-detection) | Real-time object detection from webcam, video, or image — modular pipeline with CI and configurable thresholds | Python · YOLO · OpenCV |
 | ♟️ [**Chess_Ai**](https://github.com/conchocon154/Chess_Ai) | Native macOS chess app with full international rules and a 3-level AI (random → material eval → **Minimax + heuristics**) | Swift · SwiftUI |
-| 🖼️ [**MidDeep_Learning**](https://github.com/conchocon154/MidDeep_Learning) | Image captioning with a CNN encoder and LSTM decoder, trained on MS-COCO | Python · PyTorch |
+| 🎓 [**MidDeep_Learning**](https://github.com/conchocon154/MidDeep_Learning) | The 2023 coursework captioner the study above builds on — CNN encoder, LSTM decoder, MS-COCO | Python · PyTorch |
 
 ---
 
@@ -83,6 +84,7 @@ the accounting decisions underneath it.
 </p>
 
 <p align="center">
+  <a href="https://github.com/conchocon154/caption-decoding-study"><img src="https://img.shields.io/github/stars/conchocon154/caption-decoding-study?style=flat-square&logo=github&label=caption-decoding-study" alt="caption-decoding-study stars"/></a>
   <a href="https://github.com/conchocon154/ev-purchase-analysis"><img src="https://img.shields.io/github/stars/conchocon154/ev-purchase-analysis?style=flat-square&logo=github&label=ev-purchase-analysis" alt="ev-purchase-analysis stars"/></a>
   <a href="https://github.com/conchocon154/retail-analytics-sql"><img src="https://img.shields.io/github/stars/conchocon154/retail-analytics-sql?style=flat-square&logo=github&label=retail-analytics-sql" alt="retail-analytics-sql stars"/></a>
   <a href="https://github.com/conchocon154/vn-product-matcher"><img src="https://img.shields.io/github/stars/conchocon154/vn-product-matcher?style=flat-square&logo=github&label=vn-product-matcher" alt="vn-product-matcher stars"/></a>
