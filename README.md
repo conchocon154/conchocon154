@@ -2,7 +2,14 @@
 <h3 align="center">Computer Science graduate · Data & Business Analyst · Python and SQL</h3>
 
 <p align="center">
+  <a href="https://conchocon154.github.io/"><img src="https://img.shields.io/badge/Portfolio-0b0f14?style=for-the-badge&logo=github&logoColor=4dd4ac" alt="Portfolio"/></a>
   <a href="mailto:dangleminh6677@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://www.kaggle.com/minhngle"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle"/></a>
+</p>
+
+<p align="center">
+  <b><a href="https://conchocon154.github.io/">conchocon154.github.io</a></b> — the four projects below written up as
+  case studies, with the charts, the statistical tests and the results that did not go my way. English and Vietnamese.
 </p>
 
 ---
@@ -50,6 +57,8 @@ the accounting decisions underneath it.
 ---
 
 ### 📌 Featured Projects
+
+> Longer write-ups for the first four live at **[conchocon154.github.io](https://conchocon154.github.io/)**.
 
 | Project | What it does | Tech |
 |---|---|---|
