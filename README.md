@@ -1,102 +1,82 @@
-<h1 align="center">Hi, I'm DangLe 👋</h1>
-<h3 align="center">Computer Science graduate · Data & Business Analyst · Python and SQL</h3>
+## Lê Minh Đăng
 
-<p align="center">
-  <a href="https://conchocon154.github.io/"><img src="https://img.shields.io/badge/Portfolio-0b0f14?style=for-the-badge&logo=github&logoColor=4dd4ac" alt="Portfolio"/></a>
-  <a href="mailto:dangleminh6677@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://www.kaggle.com/minhngle"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle"/></a>
-</p>
+Data & Business Analyst · Ho Chi Minh City · open to remote work
 
-<p align="center">
-  <b><a href="https://conchocon154.github.io/">conchocon154.github.io</a></b> — the four projects below written up as
-  case studies, with the charts, the statistical tests and the results that did not go my way. English and Vietnamese.
-</p>
+**[Portfolio](https://conchocon154.github.io/)** · [dangleminh6677@gmail.com](mailto:dangleminh6677@gmail.com) · [Kaggle](https://www.kaggle.com/minhngle)
 
 ---
 
-### 🚀 About me
+Computer Science graduate from Ton Duc Thang University, 2025. I work in SQL and
+Python, mostly on the part of data work that decides whether a number can be
+trusted at all: how cost gets assigned, what a rate is being measured against,
+whether a gap survives a test.
 
-Computer Science graduate from **Ton Duc Thang University**, working with **Python and
-SQL** on the unglamorous side of data: getting numbers that a business can actually act
-on, and being able to say why they are right.
+Most of what I know came from building an inventory and accounting system for a
+hardware shop and then doing the analysis on top of it. FIFO costing, two-way
+receivables, margin reporting. It taught me that a report is worth exactly as
+much as the accounting decisions underneath it, and not a bit more.
 
-I designed and shipped an inventory and accounting system that runs daily at a hardware
-shop — FIFO costing, two-way receivables, gross-margin reporting, reorder forecasting —
-then built the SQL analytics on top of it to find where margin and working capital were
-leaking. Most of what I know about data came from that: a report is only worth as much as
-the accounting decisions underneath it.
+In each project below there is a baseline the method had to beat. Three of them
+ended in a result I did not want, and those are written up as carefully as the
+rest.
 
-- 🔍 Interests: **data analysis · business analytics · SQL · machine learning**
-- 🌏 Open to **remote** Data / Business Analyst roles
-- 🎓 One-month international exchange at **Chinese Culture University**, Taipei — studied
-  entirely in English
-- 🗣️ Vietnamese (native) · English (PET B1) · Chinese (conversational)
+### Projects
 
----
+**[retail-analytics-sql](https://github.com/conchocon154/retail-analytics-sql)**
+Eight analytical queries over a simulated hardware shop: 300 SKUs, 25 months,
+8,500 invoices. Discounts to credit customers had drifted from 3.1% to 6.8%
+while revenue held steady, which is exactly why nobody had noticed. 20 tests
+check the numbers, including one guarding a reorder-point bug that used to
+inflate demand thirtyfold.
 
-### 🛠️ Tech Stack
+**[vn-product-matcher](https://github.com/conchocon154/vn-product-matcher)**
+Matches free-text Vietnamese product names onto 1,827 catalogue SKUs. The
+fine-tuned encoder reaches 96.9% Recall@1 on SKUs held out of training, 1.9
+points over a TF-IDF baseline (McNemar p = 1.2e-3). The reranker I designed to
+fix number handling turned out to do nothing at all, p = 1.00, and it is still
+in the repository with the measurement that says so.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-025E8C?style=flat-square&logo=amazondynamodb&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-<br>
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-<br>
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+**[ev-purchase-analysis](https://github.com/conchocon154/ev-purchase-analysis)**
+668,665 records from a live Kaggle competition, written up in English and
+Vietnamese. A cross-tab showed 69.3% against 2.5% and looked like a textbook
+interaction between subsidy and environmental concern. The likelihood ratio test
+put it at p = 0.62; the effect was not there, and the recommendation changed.
+Shipped logistic regression at 0.938 AUC instead of a 0.941 GBM, because
+coefficients can be explained to the people who act on them.
 
----
+**[caption-decoding-study](https://github.com/conchocon154/caption-decoding-study)**
+A controlled comparison of beam widths for a CNN-LSTM captioner on MS-COCO.
+BLEU-4 peaks at beam 5 and falls again at 10 (p = 0.017), while caption variety
+declines the whole way. Beam search also ran five times faster on CPU than on
+Apple MPS, which I did not expect and had to go and understand.
 
-### 📌 Featured Projects
+**[object-detection](https://github.com/conchocon154/object-detection)**
+Real-time detection from webcam, video or image. YOLO and OpenCV, modular
+pipeline, configurable thresholds, CI.
 
-> Longer write-ups for the first four live at **[conchocon154.github.io](https://conchocon154.github.io/)**.
+**[Chess_Ai](https://github.com/conchocon154/Chess_Ai)**
+Native macOS chess in Swift and SwiftUI. Full international rules and three
+levels of opponent, from random moves to minimax with heuristics.
 
-| Project | What it does | Tech |
-|---|---|---|
-| 🖼️ [**caption-decoding-study**](https://github.com/conchocon154/caption-decoding-study) | Does a wider beam help image captioning? Quality peaks at beam 5 and *falls* at 10 (p = 0.017), while caption diversity declines throughout — a controlled comparison on MS-COCO with paired bootstrap testing | PyTorch · ResNet-50 · LSTM · NLTK |
-| 🔌 [**ev-purchase-analysis**](https://github.com/conchocon154/ev-purchase-analysis) | Bilingual analysis of a live Kaggle competition (668k records): which customers buy an EV and what actually moves the decision. Includes an apparent interaction that a likelihood ratio test showed did not exist — and which changed the recommendation | Python · pandas · scikit-learn · statsmodels |
-| 📊 [**retail-analytics-sql**](https://github.com/conchocon154/retail-analytics-sql) | Eight analytical SQL queries over a simulated hardware shop — FIFO margin trends, ABC concentration, inventory turnover, receivables ageing, reorder points. Every planted pattern is documented, and 20 tests check the numbers | SQL · SQLite · Python · pandas |
-| 🔎 [**vn-product-matcher**](https://github.com/conchocon154/vn-product-matcher) | Matches free-text Vietnamese product names onto catalogue SKUs. Fine-tuned encoder reaches 96.9% Recall@1 on unseen SKUs — 1.9 points over a strong TF-IDF baseline, with McNemar significance testing and a documented negative result | Python · SQLite/FTS5 · PyTorch · FastAPI |
-| 🎥 [**object-detection**](https://github.com/conchocon154/object-detection) | Real-time object detection from webcam, video, or image — modular pipeline with CI and configurable thresholds | Python · YOLO · OpenCV |
-| ♟️ [**Chess_Ai**](https://github.com/conchocon154/Chess_Ai) | Native macOS chess app with full international rules and a 3-level AI (random → material eval → **Minimax + heuristics**) | Swift · SwiftUI |
-| 🎓 [**MidDeep_Learning**](https://github.com/conchocon154/MidDeep_Learning) | The 2023 coursework captioner the study above builds on — CNN encoder, LSTM decoder, MS-COCO | Python · PyTorch |
+**[MidDeep_Learning](https://github.com/conchocon154/MidDeep_Learning)**
+The 2023 coursework captioner that the decoding study above is built on.
 
----
+**[conchocon154.github.io](https://github.com/conchocon154/conchocon154.github.io)**
+The portfolio itself. Hand-written HTML and CSS; every chart on it is generated
+from the result files of the four projects above rather than drawn by hand.
 
-### 💼 Experience
+### Experience
 
-- **04/2023 – 09/2025** — Python Instructor @ [ICANTECH](https://www.icantech.vn/)
-- **07/2022 – 11/2022** — SEO @ [BTSE](https://www.btse.com/en/home)
-- **03/2021 – 06/2021** — Developer @ [Havi Technology](https://havi.com.au/)
+| | |
+|---|---|
+| 04/2023 – 09/2025 | Python Instructor, [ICANTECH](https://www.icantech.vn/) — online classes of 5–10 secondary and high-school students |
+| 07/2022 – 11/2022 | SEO, [BTSE](https://www.btse.com/en/home) |
+| 03/2021 – 06/2021 | Developer, [Havi Technology](https://havi.com.au/) |
 
-### 🎓 Education
+### Education
 
-- **Ton Duc Thang University** (Vietnam) · 08/2020 – 09/2025 — B.Sc. Computer Science *(Graduated)*
-- **Chinese Culture University** (Taipei) · 07/2026 — International exchange programme, taught in English
+**B.Sc. Computer Science**, Ton Duc Thang University, 2020 – 2025.
+One-month exchange programme at Chinese Culture University, Taipei, July 2026,
+taught entirely in English.
 
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <a href="https://github.com/conchocon154?tab=followers"><img src="https://img.shields.io/github/followers/conchocon154?style=for-the-badge&logo=github&label=Followers&color=181717" alt="Followers"/></a>
-  <img src="https://komarev.com/ghpvc/?username=conchocon154&style=for-the-badge&label=Profile+Views&color=0e75b6" alt="Profile views"/>
-</p>
-
-<p align="center">
-  <a href="https://github.com/conchocon154/caption-decoding-study"><img src="https://img.shields.io/github/stars/conchocon154/caption-decoding-study?style=flat-square&logo=github&label=caption-decoding-study" alt="caption-decoding-study stars"/></a>
-  <a href="https://github.com/conchocon154/ev-purchase-analysis"><img src="https://img.shields.io/github/stars/conchocon154/ev-purchase-analysis?style=flat-square&logo=github&label=ev-purchase-analysis" alt="ev-purchase-analysis stars"/></a>
-  <a href="https://github.com/conchocon154/retail-analytics-sql"><img src="https://img.shields.io/github/stars/conchocon154/retail-analytics-sql?style=flat-square&logo=github&label=retail-analytics-sql" alt="retail-analytics-sql stars"/></a>
-  <a href="https://github.com/conchocon154/vn-product-matcher"><img src="https://img.shields.io/github/stars/conchocon154/vn-product-matcher?style=flat-square&logo=github&label=vn-product-matcher" alt="vn-product-matcher stars"/></a>
-  <a href="https://github.com/conchocon154/object-detection"><img src="https://img.shields.io/github/stars/conchocon154/object-detection?style=flat-square&logo=github&label=object-detection" alt="object-detection stars"/></a>
-  <a href="https://github.com/conchocon154/Chess_Ai"><img src="https://img.shields.io/github/stars/conchocon154/Chess_Ai?style=flat-square&logo=github&label=Chess_Ai" alt="Chess_Ai stars"/></a>
-</p>
+Vietnamese (native), English (PET B1), Chinese (conversational).
