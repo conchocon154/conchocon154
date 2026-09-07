@@ -1,69 +1,50 @@
-## Lê Minh Đăng
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png">
+  <img alt="Lê Minh Đăng — Data &amp; Business Analyst, Ho Chi Minh City, open to remote" src="assets/banner-light.png">
+</picture>
 
-Data & Business Analyst · Ho Chi Minh City · open to remote work
+**[Portfolio](https://conchocon154.github.io/)** · [dangleminh6677@gmail.com](mailto:dangleminh6677@gmail.com) · [Kaggle](https://www.kaggle.com/minhngle)  
 
-**[Portfolio](https://conchocon154.github.io/)** · [dangleminh6677@gmail.com](mailto:dangleminh6677@gmail.com) · [Kaggle](https://www.kaggle.com/minhngle)
+Computer Science graduate from Ton Duc Thang University, 2025. Most of what I know
+came from building an inventory and accounting system for a hardware shop and then
+doing the analysis on top of it. FIFO costing, two-way receivables, margin reporting.
+It taught me that a report is worth exactly as much as the accounting decisions
+underneath it, and not a bit more.
 
----
+In each project below there is a baseline the method had to beat. Three of them ended
+in a result I did not want, and those are written up as carefully as the rest.
 
-Computer Science graduate from Ton Duc Thang University, 2025. I work in SQL and
-Python, mostly on the part of data work that decides whether a number can be
-trusted at all: how cost gets assigned, what a rate is being measured against,
-whether a gap survives a test.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/work-dark.png">
+  <img alt="Selected work: retail-analytics-sql, vn-product-matcher, ev-purchase-analysis, caption-decoding-study" src="assets/work-light.png">
+</picture>
 
-Most of what I know came from building an inventory and accounting system for a
-hardware shop and then doing the analysis on top of it. FIFO costing, two-way
-receivables, margin reporting. It taught me that a report is worth exactly as
-much as the accounting decisions underneath it, and not a bit more.
+**[retail-analytics-sql](https://github.com/conchocon154/retail-analytics-sql)** · SQL · SQLite · pandas  
+Eight analytical queries over a simulated hardware shop: 300 SKUs, 25 months, 8,500
+invoices. 20 tests check the numbers, one of them guarding a reorder-point bug that
+used to inflate average demand thirtyfold.
 
-In each project below there is a baseline the method had to beat. Three of them
-ended in a result I did not want, and those are written up as carefully as the
-rest.
+**[vn-product-matcher](https://github.com/conchocon154/vn-product-matcher)** · PyTorch · sentence-transformers · FastAPI  
+Matches free-text Vietnamese product names onto 1,827 catalogue SKUs. The reranker I
+designed to fix number handling turned out to do nothing at all, p = 1.00, and it is
+still in the repository with the measurement that says so.
 
-### Projects
+**[ev-purchase-analysis](https://github.com/conchocon154/ev-purchase-analysis)** · pandas · scikit-learn · statsmodels  
+A cross-tab showed 69.3% against 2.5% and looked like a textbook interaction. The
+likelihood ratio test put it at p = 0.62, so the effect was not there and the
+recommendation changed. Shipped logistic regression at 0.938 AUC over a 0.941 GBM,
+because coefficients can be explained to the people who act on them.
 
-**[retail-analytics-sql](https://github.com/conchocon154/retail-analytics-sql)**  
-Eight analytical queries over a simulated hardware shop: 300 SKUs, 25 months,
-8,500 invoices. Discounts to credit customers had drifted from 3.1% to 6.8%
-while revenue held steady, which is exactly why nobody had noticed. 20 tests
-check the numbers, including one guarding a reorder-point bug that used to
-inflate demand thirtyfold.
+**[caption-decoding-study](https://github.com/conchocon154/caption-decoding-study)** · PyTorch · ResNet-50 · LSTM  
+A controlled comparison of beam widths on MS-COCO. Beam search also ran five times
+faster on CPU than on Apple MPS, which I did not expect and had to go and understand.
 
-**[vn-product-matcher](https://github.com/conchocon154/vn-product-matcher)**  
-Matches free-text Vietnamese product names onto 1,827 catalogue SKUs. The
-fine-tuned encoder reaches 96.9% Recall@1 on SKUs held out of training, 1.9
-points over a TF-IDF baseline (McNemar p = 1.2e-3). The reranker I designed to
-fix number handling turned out to do nothing at all, p = 1.00, and it is still
-in the repository with the measurement that says so.
+### Also here
 
-**[ev-purchase-analysis](https://github.com/conchocon154/ev-purchase-analysis)**  
-668,665 records from a live Kaggle competition, written up in English and
-Vietnamese. A cross-tab showed 69.3% against 2.5% and looked like a textbook
-interaction between subsidy and environmental concern. The likelihood ratio test
-put it at p = 0.62; the effect was not there, and the recommendation changed.
-Shipped logistic regression at 0.938 AUC instead of a 0.941 GBM, because
-coefficients can be explained to the people who act on them.
-
-**[caption-decoding-study](https://github.com/conchocon154/caption-decoding-study)**  
-A controlled comparison of beam widths for a CNN-LSTM captioner on MS-COCO.
-BLEU-4 peaks at beam 5 and falls again at 10 (p = 0.017), while caption variety
-declines the whole way. Beam search also ran five times faster on CPU than on
-Apple MPS, which I did not expect and had to go and understand.
-
-**[object-detection](https://github.com/conchocon154/object-detection)**  
-Real-time detection from webcam, video or image. YOLO and OpenCV, modular
-pipeline, configurable thresholds, CI.
-
-**[Chess_Ai](https://github.com/conchocon154/Chess_Ai)**  
-Native macOS chess in Swift and SwiftUI. Full international rules and three
-levels of opponent, from random moves to minimax with heuristics.
-
-**[MidDeep_Learning](https://github.com/conchocon154/MidDeep_Learning)**  
-The 2023 coursework captioner that the decoding study above is built on.
-
-**[conchocon154.github.io](https://github.com/conchocon154/conchocon154.github.io)**  
-The portfolio itself. Hand-written HTML and CSS; every chart on it is generated
-from the result files of the four projects above rather than drawn by hand.
+- **[conchocon154.github.io](https://github.com/conchocon154/conchocon154.github.io)** — the portfolio. Hand-written HTML and CSS; every chart on it is generated from the result files of the four projects above.
+- **[object-detection](https://github.com/conchocon154/object-detection)** — real-time detection from webcam, video or image. YOLO, OpenCV, CI.
+- **[Chess_Ai](https://github.com/conchocon154/Chess_Ai)** — macOS chess in Swift and SwiftUI, three levels up to minimax with heuristics.
+- **[MidDeep_Learning](https://github.com/conchocon154/MidDeep_Learning)** — the 2023 coursework captioner the decoding study is built on.
 
 ### Experience
 
@@ -75,8 +56,8 @@ from the result files of the four projects above rather than drawn by hand.
 
 ### Education
 
-**B.Sc. Computer Science**, Ton Duc Thang University, 2020 – 2025.
-One-month exchange programme at Chinese Culture University, Taipei, July 2026,
-taught entirely in English.
+**B.Sc. Computer Science**, Ton Duc Thang University, 2020 – 2025.  
+One-month exchange programme at Chinese Culture University, Taipei, July 2026, taught
+entirely in English.
 
 Vietnamese (native), English (PET B1), Chinese (conversational).
