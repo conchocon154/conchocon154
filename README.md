@@ -15,9 +15,11 @@ In each project below there is a baseline the method had to beat. Three of them 
 in a result I did not want, and those are written up as carefully as the rest.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/work-dark.png">
-  <img alt="Selected work: retail-analytics-sql, vn-product-matcher, ev-purchase-analysis, caption-decoding-study" src="assets/work-light.png">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/charts-dark.gif">
+  <img alt="Four charts drawing themselves: discount drift against gross margin over 25 months; Recall@1 by retriever; buyers reached against share of the list contacted; BLEU-4 across beam widths" src="assets/charts-light.gif">
 </picture>
+
+<sub>Every series above is read out of the result files in the four repositories — `tools/render_charts.py` rebuilds the animation from them.</sub>
 
 **[retail-analytics-sql](https://github.com/conchocon154/retail-analytics-sql)** · SQL · SQLite · pandas  
 Eight analytical queries over a simulated hardware shop: 300 SKUs, 25 months, 8,500
