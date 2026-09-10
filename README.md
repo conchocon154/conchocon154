@@ -54,6 +54,17 @@ leaderboard. Local gains were real and were not reaching it, and I stopped addin
 features rather than keep tuning against a number that had stopped meaning anything.
 Notebook: [Direct Multi-Horizon Forecasting](https://www.kaggle.com/code/minhngle/store-sales-direct-multi-horizon-forecasting).
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/store-sales-season-dark.png">
+  <img alt="Annual sales shape indexed to each family's own average day: grocery flat at 1.0 all year, school and office supplies at 0.3 for most of the year and seven times its average in the weeks the competition asks about" src="assets/store-sales-season-light.png" width="49%">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/store-sales-horizon-dark.png">
+  <img alt="Forecast error by days ahead, climbing from 0.385 on day one to 0.455 on day sixteen" src="assets/store-sales-horizon-light.png" width="49%">
+</picture>
+
+<sub>Left: one family of thirty-three carries 13% of the error, and this is why — Ecuadorean term starts in August, inside the window being forecast. Right: error climbs steadily across the sixteen days, which is what made me suspect the leaderboard was scoring the easy half. Both drawn by <code>tools/render_charts.py</code> in that repository, from tables it emits itself.</sub>
+
 **[kaggriculture-agent](https://github.com/conchocon154/kaggriculture-agent)** · game AI · greedy assignment  
 A two-player farming sim, 720 turns, ranked on wins rather than score. Seven versions
 in, the agent was still playing 25 of the 100 tiles because nothing had read the
