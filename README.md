@@ -72,6 +72,13 @@ engine's price table; reading it showed melon is worth about 26,000 coins for a 
 season and then nothing. Rebuilt to price every job in coins per action: 80,232 against
 the built-in baseline, up from 34,866, and 12–0 against its own previous submission.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/kaggriculture-farm-dark.png">
+  <img alt="The same farm on day 4, day 12 and day 26 of one game: twenty-five melon tiles and $167 left; then the crop sold, $13,724 banked and two more quadrants bought; then a farm across three quadrants at $53,645" src="assets/kaggriculture-farm-light.png">
+</picture>
+
+<sub>One real game against the built-in opponent, drawn from the replay rather than illustrated. Day 4 is every starting tile in melon with $167 left in the bank; day 12 is the crop sold and two more quadrants bought with it; day 26 is $53,645 against the opponent's $3,690. The pale tiles are pens standing empty — the agent's most expensive remaining habit, and it is written up as one.</sub>
+
 **[arc-agi2-baseline](https://github.com/conchocon154/arc-agi2-baseline)** · program synthesis · **[arc-agi3-baseline](https://github.com/conchocon154/arc-agi3-baseline)** · agents  
 Abstract reasoning. Both submitted as floors and labelled as floors — the ARC-AGI-3
 agent beats a random policy on levels cleared, 3.7 against 3.3, with the per-seed
