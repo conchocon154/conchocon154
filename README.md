@@ -41,6 +41,31 @@ because coefficients can be explained to the people who act on them.
 A controlled comparison of beam widths on MS-COCO. Beam search also ran five times
 faster on CPU than on Apple MPS, which I did not expect and had to go and understand.
 
+### Kaggle
+
+Live competitions, where the baseline is other people rather than a number I chose.
+
+**[store-sales-forecasting](https://github.com/conchocon154/store-sales-forecasting)** · scikit-learn · pandas  
+Sixteen days of daily sales for 1,782 store-family series in Ecuador. RMSLE 0.40695,
+rank ~92 of 642 — the top is 0.37294, so this is not a winning solution and the
+write-up says so. It is here for the result I did not expect: two models 0.021 apart
+on the fold immediately before the test window scored 0.40713 and 0.40695 on the
+leaderboard. Local gains were real and were not reaching it, and I stopped adding
+features rather than keep tuning against a number that had stopped meaning anything.
+Notebook: [Direct Multi-Horizon Forecasting](https://www.kaggle.com/code/minhngle/store-sales-direct-multi-horizon-forecasting).
+
+**[kaggriculture-agent](https://github.com/conchocon154/kaggriculture-agent)** · game AI · greedy assignment  
+A two-player farming sim, 720 turns, ranked on wins rather than score. Seven versions
+in, the agent was still playing 25 of the 100 tiles because nothing had read the
+engine's price table; reading it showed melon is worth about 26,000 coins for a whole
+season and then nothing. Rebuilt to price every job in coins per action: 80,232 against
+the built-in baseline, up from 34,866, and 12–0 against its own previous submission.
+
+**[arc-agi2-baseline](https://github.com/conchocon154/arc-agi2-baseline)** · program synthesis · **[arc-agi3-baseline](https://github.com/conchocon154/arc-agi3-baseline)** · agents  
+Abstract reasoning. Both submitted as floors and labelled as floors — the ARC-AGI-3
+agent beats a random policy on levels cleared, 3.7 against 3.3, with the per-seed
+ranges overlapping and neither winning a game.
+
 ### Also here
 
 - **[conchocon154.github.io](https://github.com/conchocon154/conchocon154.github.io)** — the portfolio. Hand-written HTML and CSS; every chart on it is generated from the result files of the four projects above.
