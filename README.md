@@ -35,7 +35,10 @@ still in the repository with the measurement that says so.
 A cross-tab showed 69.3% against 2.5% and looked like a textbook interaction. The
 likelihood ratio test put it at p = 0.62, so the effect was not there and the
 recommendation changed. Shipped logistic regression at 0.938 AUC over a 0.941 GBM,
-because coefficients can be explained to the people who act on them.
+because coefficients can be explained to the people who act on them. On the
+competition's final private board my best entry, a reproduction of the most-voted
+public notebook averaged with public out-of-fold predictions, placed 416th of 3,575
+at 0.94543.
 
 **[caption-decoding-study](https://github.com/conchocon154/caption-decoding-study)** · PyTorch · ResNet-50 · LSTM  
 A controlled comparison of beam widths on MS-COCO. Beam search also ran five times
@@ -45,14 +48,17 @@ faster on CPU than on Apple MPS, which I did not expect and had to go and unders
 
 Live competitions, where the baseline is other people rather than a number I chose.
 
-**[store-sales-forecasting](https://github.com/conchocon154/store-sales-forecasting)** · scikit-learn · pandas  
-Sixteen days of daily sales for 1,782 store-family series in Ecuador. RMSLE 0.40695,
-rank ~92 of 642 — the top is 0.37294, so this is not a winning solution and the
-write-up says so. It is here for the result I did not expect: two models 0.021 apart
-on the fold immediately before the test window scored 0.40713 and 0.40695 on the
-leaderboard. Local gains were real and were not reaching it, and I stopped adding
-features rather than keep tuning against a number that had stopped meaning anything.
-Notebook: [Direct Multi-Horizon Forecasting](https://www.kaggle.com/code/minhngle/store-sales-direct-multi-horizon-forecasting).
+**[store-sales-forecasting](https://github.com/conchocon154/store-sales-forecasting)** · LightGBM · XGBoost · CatBoost · pandas  
+Sixteen days of daily sales for 1,782 store-family series in Ecuador. RMSLE 0.37723,
+rank 13 of 546; the leader is at 0.37165. The base is the most-voted public recipe,
+33 per-family LightGBM models forecast recursively, rewritten from scratch and credited
+in the repository; my part is running that design on six more tree engines and
+averaging them, which took it from 0.37990. The fold just before the test window
+stopped being a guide twice. Two early models 0.021 apart on it scored 0.40713 and
+0.40695 on the leaderboard, and later a Ridge member that improved the fold from 0.4016
+to 0.3992 made the leaderboard worse, 0.37884 to 0.38204. Engines are now chosen on the
+leaderboard, one change per submission.
+Notebook: [Direct Multi-Horizon Forecasting](https://www.kaggle.com/code/minhngle/store-sales-direct-multi-horizon-forecasting) (the earlier model).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/store-sales-season-dark.png">
@@ -71,6 +77,11 @@ in, the agent was still playing 25 of the 100 tiles because nothing had read the
 engine's price table; reading it showed melon is worth about 26,000 coins for a whole
 season and then nothing. Rebuilt to price every job in coins per action: 80,232 against
 the built-in baseline, up from 34,866, and 12–0 against its own previous submission.
+On the live ladder it sits at a rating of 477, against a leader at 3,294, and the
+replays of its worst losses say why: the town's shops drain milk and strawberries all
+season, so the goods my price model wrote off as traps were what the winners lived on.
+The account's higher placing comes from a public Apache-2.0 agent I submitted
+alongside it for comparison, not from this one.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/kaggriculture-farm-dark.png">
@@ -80,9 +91,9 @@ the built-in baseline, up from 34,866, and 12–0 against its own previous submi
 <sub>One real game against the built-in opponent, drawn from the replay rather than illustrated. Day 4 is every starting tile in melon with $167 left in the bank; day 12 is the crop sold and two more quadrants bought with it; day 26 is $53,645 against the opponent's $3,690. The pale tiles are pens standing empty — the agent's most expensive remaining habit, and it is written up as one.</sub>
 
 **[arc-agi2-baseline](https://github.com/conchocon154/arc-agi2-baseline)** · program synthesis · **[arc-agi3-baseline](https://github.com/conchocon154/arc-agi3-baseline)** · agents  
-Abstract reasoning. Both submitted as floors and labelled as floors — the ARC-AGI-3
-agent beats a random policy on levels cleared, 3.7 against 3.3, with the per-seed
-ranges overlapping and neither winning a game.
+Abstract reasoning. Both submitted as floors and labelled as floors, scoring 0.00 and
+0.20 on their boards — the ARC-AGI-3 agent beats a random policy on levels cleared,
+3.7 against 3.3, with the per-seed ranges overlapping and neither winning a game.
 
 ### Also here
 
