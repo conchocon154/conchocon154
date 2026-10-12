@@ -5,7 +5,7 @@
 
 **[Portfolio](https://conchocon154.github.io/)** · [dangleminh6677@gmail.com](mailto:dangleminh6677@gmail.com) · [Kaggle](https://www.kaggle.com/minhngle)  
 
-Computer Science graduate from Ton Duc Thang University, 2025. Most of what I know
+Computer Science student from Ton Duc Thang University. Most of what I know
 came from building an inventory and accounting system for a hardware shop and then
 doing the analysis on top of it. FIFO costing, two-way receivables, margin reporting.
 It taught me that a report is worth exactly as much as the accounting decisions
@@ -98,11 +98,3 @@ ranges overlapping and neither winning a game.
 | 04/2023 – 09/2025 | Python Instructor, [ICANTECH](https://www.icantech.vn/) — online classes of 5–10 secondary and high-school students |
 | 07/2022 – 11/2022 | SEO, [BTSE](https://www.btse.com/en/home) |
 | 03/2021 – 06/2021 | Developer, [Havi Technology](https://havi.com.au/) |
-
-### Education
-
-**B.Sc. Computer Science**, Ton Duc Thang University, 2020 – 2025.  
-One-month exchange programme at Chinese Culture University, Taipei, July 2026, taught
-entirely in English.
-
-Vietnamese (native), English (PET B1), Chinese (conversational).
