@@ -3,7 +3,7 @@
   <img alt="Lê Minh Đăng — Data &amp; Business Analyst, Ho Chi Minh City, open to remote" src="assets/banner-light.png">
 </picture>
 
-**[Portfolio](https://conchocon154.github.io/)** · [dangleminh6677@gmail.com](mailto:dangleminh6677@gmail.com) · [Kaggle](https://www.kaggle.com/minhngle)  
+[dangleminh6677@gmail.com](mailto:dangleminh6677@gmail.com) · [Kaggle](https://www.kaggle.com/minhngle)  
 
 Computer Science student from Ton Duc Thang University. Most of what I know
 came from building an inventory and accounting system for a hardware shop and then
